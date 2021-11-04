@@ -1,0 +1,18 @@
+com/example/smarthome/GestureActivity.java
+ com.example.smarthome.GestureActivity
+ com.example.smarthome.GestureActivity$1
+com/example/smarthome/ConfigApi.java
+ com.example.smarthome.ConfigApi
+com/example/smarthome/FlaskResponse.java
+ com.example.smarthome.FlaskResponse
+com/example/smarthome/BuildConfig.java
+ com.example.smarthome.BuildConfig
+com/example/smarthome/MainActivity.java
+ com.example.smarthome.MainActivity
+ com.example.smarthome.MainActivity$1
+com/example/smarthome/ConfigFile.java
+ com.example.smarthome.ConfigFile
+com/example/smarthome/RecordActivity.java
+ com.example.smarthome.RecordActivity
+ com.example.smarthome.RecordActivity$1
+ com.example.smarthome.RecordActivity$2

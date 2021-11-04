@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smarthome"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:4:5-67
+11-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:5:5-65
+12-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission
+13-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:6:5-9:44
+14        android:name="android.permission.FLASHLIGHT"
+14-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:7:9-53
+15        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+15-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:8:9-77
+16        android:protectionLevel="normal" />
+16-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:9:9-41
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:10:5-81
+17-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:11:5-80
+18-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:11:22-77
+19
+20    <uses-feature
+20-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:13:5-15:35
+21        android:name="android.hardware.camera"
+21-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:14:9-47
+22        android:required="true" />
+22-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:15:9-32
+23    <uses-feature
+23-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:16:5-18:35
+24        android:name="android.hardware.camera.autofocus"
+24-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:17:9-57
+25        android:required="true" />
+25-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:18:9-32
+26    <uses-feature
+26-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:19:5-21:35
+27        android:name="android.hardware.camera.front"
+27-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:20:9-53
+28        android:required="true" />
+28-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:21:9-32
+29    <uses-feature
+29-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:22:5-24:35
+30        android:name="android.hardware.camera.front.autofocus"
+30-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:23:9-63
+31        android:required="true" />
+31-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:24:9-32
+32    <uses-feature android:name="android.hardware.camera.flash" />
+32-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:25:5-66
+32-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:25:19-63
+33
+34    <application
+34-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:27:5-52:19
+35        android:allowBackup="true"
+35-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:28:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.3.1] C:\Users\adwai\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:29:9-43
+40        android:label="@string/app_name"
+40-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:30:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:31:9-54
+42        android:supportsRtl="true"
+42-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:32:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.SmartHome" >
+44-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:33:9-47
+45        <activity android:name="com.example.smarthome.RecordActivity" />
+45-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:34:9-61
+45-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:34:19-49
+46        <activity android:name="com.example.smarthome.GestureActivity" />
+46-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:35:9-53
+46-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:35:19-50
+47        <activity android:name="com.example.smarthome.MainActivity" >
+47-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:36:9-42:20
+47-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:36:19-47
+48            <intent-filter>
+48-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:37:13-41:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:38:17-69
+49-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:38:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:40:17-77
+51-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:40:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <provider
+55-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:43:9-51:20
+56            android:name="androidx.core.content.FileProvider"
+56-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:44:13-62
+57            android:authorities="com.example.smarthome.fileprovider"
+57-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:45:13-69
+58            android:exported="false"
+58-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:46:13-37
+59            android:grantUriPermissions="true" >
+59-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:47:13-47
+60            <meta-data
+60-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:48:13-50:68
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:49:17-67
+62                android:resource="@xml/provider_paths" />
+62-->H:\Mobile Computing\Assignment 2\SmartHome-main\app\src\main\AndroidManifest.xml:50:17-55
+63        </provider>
+64    </application>
+65
+66</manifest>
